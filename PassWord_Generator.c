@@ -34,7 +34,7 @@ if(pl>=5&&pl<=20){
     printf("\n\tRequest Accepted");
     printf("\n\tPassword Generated\n");
     passwordgenerator(pl);
-    scanf("%d", &p);
+    system("pause");
 }
 
 return 0;
